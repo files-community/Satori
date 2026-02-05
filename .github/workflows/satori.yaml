@@ -6,6 +6,7 @@ name: Satori
 on:
   push:
     branches: [ "*" ]
+  workflow_dispatch:
 
 jobs:
   build_linux_musl_x64:
